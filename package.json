@@ -1,0 +1,36 @@
+
+{
+  "name": "docpad-plp-api",
+  "version": "0.0.1",
+  "description": "DocPad Plugin to put a communication API onto of DocPad for use in the PLP System. See https://github.com/Webizly/plp",
+  "homepage": "https://github.com/webizly/docpad-plp-api",
+  "keywords": [
+    "docpad",
+    "docpad-plugin",
+    "plp",
+    "api"
+  ],
+  "author": "Sean Fisher <srtfisher@gmail.com>",
+  "maintainers": [
+    "Sean Fisher <srtfisher@gmail.com>"
+  ],
+  "contributors": [
+    "Sean Fisher <srtfisher@gmail.com>"
+  ],
+  "bugs": {
+    "url": "https://github.com/webizly/docpad-plp-api/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/webizly/docpad-plp-api.git"
+  },
+  "engines": {
+    "node": ">=0.4.0",
+    "docpad": "6.x"
+  },
+  "main": "./plp-api.plugin.js",
+  "dependencies": {
+    "sunny": "0.0.5",
+    "mime": "1.2.x"
+  }
+}
